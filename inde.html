@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Tabla y Formulario</title>
+</head>
+<body>
+    <!--CONSULTAR COMO CREAR TABLAS Y FORMULARIOS PARA HTML-->
+    <!--DESARROLLAR UNA CONSULTA DE COMO CREAR TABLAS Y FORMULARIOS PARA HTML-->
+    <!--PARA LA CREACION DE UNA TABLA, COLOCAREMOS LA ETIQUETA "TABLA" ESTA TENDRA UNA CLASE Y TENDRA UNAS CABECERAS LLAMADAS thead que mediante pequenñas eqtiquetas "tr" podemos formar la tabla -->
+    <table class="styled-table">
+         <!--LA ETIQUETA "TABLE" PERMITE DEFINIR LA TABLA -->
+        <thead>
+            <!--LA ETIQUETA "THEAD" PERMITE CREAR EL ENCABEZADO DE UNA SERIE DE TABLAS -->
+            <tr>
+   <!--LA ETIQUETA "Tr" DEFINE UNA FILA DELA TABLA -->
+   <!--LA ETIQUETAA "Th" PERMITE COLOCAR CUANTAS COLUMNAS DE DATOS DESEAMOS ESCRIBIR-->
+                <th>Posicion</th>
+                <th>Nombre</th>
+                <th>Carrera</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+       <!--EL "TBODY" ES UNA ETIQUETA QUE PERMITE UBICAR EL CONTENIDO A LA TABLA --> 
+       <tbody>
+        <tr> 
+            <!--LA ETIQUETA "td" REPRESENTA UNA CELDA DE DATOS-->
+            <td>1
+            <td>Kevin
+            <td>Software
+            <td>23
+        </tr>
+       </tbody>
+    </table>
+    <!-- DESARROLLAR UN FORMULARIO EN VISUAL ESTUDIO CODE-->
+     <form>
+            <!-- SE USA PARA RECOLPILAR DATOS DEL USUARIO -->
+        <h2> Bienvenido</h2>
+            <!-- ES UN ENCABEZADO DE "NIVEL" 2-->
+        <input type="text" placeholder="Nombre">
+            <!-- CREA UN CAMPO DE ENTRADA DE TEXTO, LA ETIQUETA "TYPE="TEXT" PERMITE INGRESAR TEXTO, PLACEHOLDER="NOMBRE" MUESTRA DONDE COLOCARL EL NOMBRE ASI SE REPITE CON LAS DEMAS FUNCIONES SEMEJANTES"-->
+        <input type="text" placeholder="Apellido">
+        <input type="text" placeholder="Direccion">
+        <input type="email" placeholder="Correo">  
+        <input class="btn" type="submit" value="enviar"> 
+    <!-- LA ETIQUETA <input class="btn" type="submit" value="enviar">, EL TYPE SEENCARGA DE ENVIAR EL FORMULARIO AL SERVIDOR, CLASS PERMITE APLICAR UN ESTILO DE CSS Y VALUE ES EL TEXTO QUE TENDRA EL BOTON -->
+
+     </form>
+</body>
+</html>
